@@ -9,17 +9,31 @@
 } */
 
 .imagen {
-max-width: 1450px;
-
+max-width: 1430px;
 margin:0 auto;
-}
+justify-content: center;
 
+}
+.imagen2 {
+    
+    margin:0 auto;
+    max-width: 1430px;
+    
+
+    }
+    
 #equipo {
 text-align: center;
 margin-top:8px;
 font-size: 44px;
 font-family: 'Quicksand';
 }
+#equipo1 {
+    text-align: center;
+    margin-top:8px;
+    font-size: 44px;
+    font-family: 'Quicksand';
+    }
 #rectangulo{
     position: absolute;
     width: 579px;
@@ -31,60 +45,123 @@ font-family: 'Quicksand';
     border-radius: 79px;
 
 }
+.imagenesRedondeadas{
+    width: 400px; 
+    height:300px; 
+    text-shadow: 3px; 
+    border-radius: 30px 30px 0 0 ;
+}
+.letrasServicios{
+    padding: 20px; 
+    font-size:20px;
+    font-family: 'Quicksand';
+    margin-top: 3%;
+
+
+}
+.cajaServicios{
+    background-color: gray;
+    width: auto;
+    padding-top: 3%;
+}
 
 .primeraCaja{
     display: flex;
     background-color: gray;
     flex-wrap: wrap;
-    padding: 70px;
+    padding: 30px;
     justify-content: center;
+    width: 97%;
     
 }
+
 .segundaCaja{
     /* margin-top: 100px;
     margin-right: 100px;
     margin-left: 100px; */
-    background-color: red;
-    height: 500px;
-    width: 500px;
-    border-radius: 50px;
+    background-color: #ffffff;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    text-align: center;
 }
 .terceraCaja{
     /* margin-top: 100px; */
-    background-color: red;
-    height: 500px;
-    width: 500px;
-    border-radius: 50px;
-  
+    background-color: #ffffff;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    text-align: center;
+
 
 
 }
 .cuartaCaja{
     /* margin-top: 700px; */
-    background-color: red;
-    height: 500px;
-    width: 500px;
-    border-radius: 50px;
+    background-color: #ffffff;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    text-align: center;
+
 
 
 }
 .quintaCaja{
     /* margin-top: 700px; */
-    background-color: red;
+    background-color: #ffffff;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+ .segundaCaja,.terceraCaja,.cuartaCaja,.quintaCaja{
+
+    margin: 60px;
+ }
+
+ .primeraCajaProducciones{
+    display: flex;
+    background-color: #808080;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+    width: 97%;
+    
+    
+}
+.cajaProducciones{
+    background-color: #ffffff;
     height: 500px;
-    width: 500px;
-    border-radius: 50px;
+    width: 650px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.cajaProduccionesTexto{
+background-color: #808080;
+height: 500px;
+width: 400px;
+border-radius: 30px;
+text-align: center;
 
 
 }
- .segundaCaja,.terceraCaja,.cuartaCaja,.quintaCaja{
+.cajaProducciones,.cajaProduccionesTexto{
 
-    margin: 30px;
+    margin: 50px;
  }
-
 /* porque¡??? */
 .foto{
-	max-width: 1450px;
+	max-width: 1430px;
+}
+.foto2{
+	max-width: 1100px;
+    border-radius: 10px;
+    margin-left: 120px;
+
 }
 
 /* #menu {
@@ -104,7 +181,7 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1450px;
+    max-width: 1430px;
     margin: 0 auto;
     height: 3rem;
 	background-color: rgb(255, 255, 246);
