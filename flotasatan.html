@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+table {
+border: solid black 1px;
+border-collapse: collapse;
+}
+
+td {
+border: solid 1px;
+width: 50px;
+height: 50px;
+text-align: center;
+}
+
+.ocultarFila {
+border-top: solid white;
+border-left: solid white;
+border-right: solid white;
+}
+
+.ocultarColumna {
+border-top: solid white;
+border-left: solid white;
+border-bottom: solid white;
+}
+</style>
+</head>
+
+<body>
+
+
+<center>
+
+
+
+<table>
+
+<tr class="ocultar">
+<td class="ocultarFila"></td>
+
+<td class="ocultarFila">1</td>
+<td class="ocultarFila">2</td>
+<td class="ocultarFila">3</td>
+<td class="ocultarFila">4</td>
+<td class="ocultarFila">5</td>
+</tr>
+<tr>
+<td class="ocultarColumna">A</td>
+<td id="a1"></td>
+<td id="a2"></td>
+<td id="a3"></td>
+<td id="a4"></td>
+<td id="a5"></td>
+</tr>
+<tr>
+<td class="ocultarColumna">B</td>
+
+<td id="b1"> </td>
+<td id="b2"> </td>
+<td id="b3"> </td>
+<td id="b4"> </td>
+<td id="b5"> </td>
+
+</tr>
+<tr>
+<td class="ocultarColumna">C</td>
+
+<td id="c1"></td>
+<td id="c2"></td>
+<td id="c3"></td>
+<td id="c4"></td>
+<td id="c5"></td>
+
+
+</tr>
+<tr>
+<td class="ocultarColumna">D</td>
+
+<td id="d1"></td>
+<td id="d2"></td>
+<td id="d3"></td>
+<td id="d4"></td>
+<td id="d5"></td>
+
+</tr>
+<tr>
+
+<td class="ocultarColumna">E</td>
+
+<td id="e1"></td>
+<td id="e2"></td>
+<td id="e3"></td>
+<td id="e4"></td>
+<td id="e5"></td>
+
+</tr>
+
+
+</table>
+<br><br>
+
+<input type="text">
+<input type="number">
+
+
+</center>
+
+<script>
+var arrayletras = ["a", "b", "c", "d", "e"]
+
+var numAleatori04 = parseInt(Math.random() * 5)
+
+var letraAleatoria = arrayletras[numAleatori04];
+
+var numAleatorio1_5 = parseInt((Math.random() * 5) + 1);
+
+var barco1 = letraAleatoria + numAleatorio1_5;
+
+
+
+var barco2 = arrayletras[parseInt(Math.random() * 5)] + parseInt((Math.random() * 5) + 1);
+
+var barco3 = arrayletras[parseInt(Math.random() * 5)] + parseInt((Math.random() * 5) + 1);
+
+var barco4 = arrayletras[parseInt(Math.random() * 5)] + parseInt((Math.random() * 5) + 1);
+
+var barco5 = arrayletras[parseInt(Math.random() * 5)] + parseInt((Math.random() * 5) + 1);
+
+
+document.getElementById(barco1).setAttribute("style", "background-color:red");
+</script>
+</body>
+
+</html>
